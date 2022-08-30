@@ -354,11 +354,46 @@ hr.hrline
   animation-duration: 1.5s;
 }
 
+.col {
+  float: left;
+  width: 16%;
+  padding: 0 25px;
+  height: 12em;
+}
+.row {
+  padding: 30px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #E9DAC1;
+  /* height: 14em; */
+}
+
+.brandstore{
+  padding: 40px 10px 40px 10px;
+  background: #E9DAC1;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.heading{
+  color: #3F3D56;
+  
+}
+
 .qualites
 {
  background-color: #E9DAC1;
- padding-top: 50px;
- padding-bottom: 50px;
+ padding-top: 40px;
+ padding-bottom: 40px;
 }
 .outer-container
 {
@@ -395,12 +430,106 @@ hr.hrline
   text-align: center;
 }
 
+.bg{
+   background-image: url("images/g.png");
+   padding: 30px;
+   height: 400px;
+}
+
+.left a{
+  display:inline-block;
+  height:60px;
+  width:60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height:70px;
+  border-radius: 50%;
+  color:#465b52;
+  transition: all 0.5s ease;
+  margin-left: 10px;
+}
+
+.left a:hover{
+  color:#3F3D56;
+}
+
+.left{
+  /* align-items: right; */
+  left: 100px;
+  position: relative;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+.bg:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.right{
+  /* width:50%;
+  padding:0 15px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+
+
+.footcontent h4{
+
+  font-size:18px;
+  font-family: 'Oswald', sans-serif;
+  color:#3F3D56;
+  margin-bottom: 35px;
+  font-weight:500;
+  position: relative;
+}
+
+/* .footcontent ul{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+} */
+
+.footcontent h4:before
+{
+content:' ';
+left:0;
+bottom:-10px;
+background-color:#3F3D56;
+height:2px;
+position: absolute;
+box-sizing: border-box;
+width:70px; 
+
+}
+
+.footcontent li{
+  list-style: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
 .icons i{
   color: #3F3D56;
   position: relative;
-   top:50%;
+  top:50%;
   left:27%;
-transform:translate(-50%,-50%); 
+  transform:translate(-50%,-50%); 
  }
 
 
