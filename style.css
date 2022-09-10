@@ -584,6 +584,102 @@ hr.hrlinesec
  padding-top: 40px;
  padding-bottom: 40px;
 }
+
+/* CONTACT */
+.contacttop{
+   background-image: url(images/contact.png);
+   height: 350px;
+   /* position: relative;
+   top:50%;
+   font-family: 'Oswald', sans-serif;
+   color: #3f3d56; */
+}
+
+.contactmid {
+  background : linear-gradient(#A4B2A4,#3f3d56);
+}
+
+.emailcontact{
+  width: 30%;
+  background-color: #CDF0EA;
+}
+
+
+
+#contactinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  /* background: linear-gradient(#FFEFBA, #FFFFFF); */
+}
+.inputs{
+    margin-top: 10px;
+    width: 80%;
+    border: 2px solid grey;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px 8px;
+}
+
+.contactarea{
+     margin-left: 0.5px;
+     margin-top: 6px;
+     background-color: rgba(255, 255, 255, 0.2);
+     border: 2px solid grey;
+     border-radius: 15px;
+     padding: 8px 8px;
+}
+
+.contactform h4{
+  margin-top: 10px;
+  color: #3F3D56;
+}
+
+.contactreview{
+  padding-left: 10px;
+}
+
+#contactinfo .contactform {
+  width: 500px;
+  /* text-align: center; */
+  /* padding: 25px 15px; */
+  box-shadow: 20px 20px 34px rgba(5, 0, 0, 0.07);
+  border-radius: 10px;
+  margin: 40px;
+  padding-top: 50px;
+  padding-left: 50px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  background-color: #CDF0EA;
+  height: 600px;
+  
+  transition: 0.3s ease;
+}
+
+#contactinfo .contactform:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: scale(1.02);
+}
+
+/* #contactinfo .contactform img {
+  width: 100%;
+  min-height: 250px;
+  margin-bottom: 10px;
+} */
+
+/* #contactinfo .contactform h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: black;
+  background-color: #fddde4;
+} */
+
 .outer-container
 {
   display: flex;
@@ -727,18 +823,18 @@ width:70px;
  {
     margin-bottom: 20px;
  }
- input{
+
+ .indexinput{
   border: 2px solid #3F3D56;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 8px 8px;
   width:17em;
- 
+
  }
 
  .email
  {
-  
   left:52%;
   position: relative; 
  }
@@ -1066,6 +1162,7 @@ input:focus{
   border-top-left-radius: 0%;
   border-bottom-left-radius: 0%;
 }
+
 
 /* footer */
 /* 
