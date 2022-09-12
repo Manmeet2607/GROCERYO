@@ -587,8 +587,9 @@ hr.hrlinesec
 
 /* CONTACT */
 .contacttop{
-   background-image: url(images/contact.png);
-   height: 350px;
+   background-image: url(images/contactnew.png);
+   background-repeat: no-repeat;
+   height: 300px;
    /* position: relative;
    top:50%;
    font-family: 'Oswald', sans-serif;
@@ -596,12 +597,29 @@ hr.hrlinesec
 }
 
 .contactmid {
-  background : linear-gradient(#A4B2A4,#3f3d56);
+  background : linear-gradient(#3f3d56,#A4B2A4);
 }
 
 .emailcontact{
-  width: 30%;
-  background-color: #CDF0EA;
+  width: 40%;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 8%; 
+ 
+}
+
+/* .emailcontact p{
+  font-size: 32px;
+  
+} */
+dd{
+  font-weight: 400;
+}
+dt {
+  display: list-item;
+  list-style-type: "◎";
+  padding-inline-start: 1ch;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 
@@ -642,19 +660,26 @@ hr.hrlinesec
 }
 
 #contactinfo .contactform {
-  width: 500px;
-  /* text-align: center; */
-  /* padding: 25px 15px; */
+  width: 450px;
   box-shadow: 20px 20px 34px rgba(5, 0, 0, 0.07);
   border-radius: 10px;
-  margin: 40px;
-  padding-top: 50px;
-  padding-left: 50px;
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  background-color: #CDF0EA;
-  height: 600px;
+  margin-left:40px;
+  padding-top: 3%;
+  padding-left: 3%; 
+  padding-bottom: 2%; 
+  display: flex;
+  overflow-y: hidden;
+  margin-top: -6%;
+  margin-right: 8%;
+  margin-bottom: 10%;
+
+  position: relative;
+  /* top:-50%; */
+ 
+
+ 
+  background-color: #a4b2a4;
+ 
   
   transition: 0.3s ease;
 }
